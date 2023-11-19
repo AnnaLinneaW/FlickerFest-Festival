@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import 'src/app/globals.css';
 import MyLayout from '@/app/MyLayout';
 import TicketData from '@/types/tickets';
-import postData from './api/postTickets';
+import postData from './api/posttickets';
 
 const CheckoutForm: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string>('');
