@@ -23,10 +23,9 @@ const SchedulePage: React.FC = () => {
   return (
     <MyLayout>
       <div>
-        <main className="flex min-h-screen flex-col items-center p-24">
-          <h2 className="text-4xl font-bold mb-8">Schedule</h2>
+        <main className="flex min-h-screen flex-col items-center p-24 bg-gray-800 text-white">
+          <h2 className="text-4xl font-bold mb-8 font-mono">Schedule</h2>
           <div className="z-10 max-w-5xl w-full flex items-center justify-between font-mono text-sm">
-            {/* Rendera filmer för varje dag */}
             <div className="flex flex-row space-x-8">
               <div className="flex flex-col items-center justify-center">
                 <h2 className="text-2xl font-bold mb-4">Fredag</h2>
@@ -39,7 +38,7 @@ const SchedulePage: React.FC = () => {
                         height={400}
                         src={`/img/${film.poster}`}
                         alt={film.title}
-                        className="cursor-pointer rounded-lg shadow-lg"
+                        className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                       />
                     </Link>
                     <div className="mt-2 text-gray-600">Time: {film.time}</div>
@@ -57,7 +56,7 @@ const SchedulePage: React.FC = () => {
                         height={400}
                         src={`/img/${film.poster}`}
                         alt={film.title}
-                        className="cursor-pointer rounded-lg shadow-lg"
+                        className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                       />
                     </Link>
                     <div className="mt-2 text-gray-600">Time: {film.time}</div>
@@ -75,7 +74,7 @@ const SchedulePage: React.FC = () => {
                         height={400}
                         src={`/img/${film.poster}`}
                         alt={film.title}
-                        className="cursor-pointer rounded-lg shadow-lg"
+                        className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                       />
                     </Link>
                     <div className="mt-2 text-gray-600">Time: {film.time}</div>

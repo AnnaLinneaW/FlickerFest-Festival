@@ -3,7 +3,7 @@ const Nav = () => {
   return (
     <nav className="nav w-full">
       <div className="z-10  w-full flex-col items-center justify-evenly font-mono text-sm  bg-gray-800">
-        <ul className="flex flex-row items-center justify-evenly m-6 space-x-4">
+        <ul className="flex flex-row items-center justify-evenly space-x-4">
           <li>
             <Link href="/" className="text-white hover:underline">
               Home

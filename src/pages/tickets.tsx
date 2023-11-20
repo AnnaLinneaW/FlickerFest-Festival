@@ -21,7 +21,7 @@ const CheckoutForm: React.FC = () => {
   return (
     <MyLayout>
       <div>
-        <main className="flex items-center justify-center min-h-screen">
+        <main className="flex items-center justify-center min-h-screen text-black bg-gray-800">
           <div className="max-w-lg p-6 bg-white rounded-md shadow-md w-full">
             <h2 className="text-4xl font-bold mb-8">Checkout</h2>
             {/* Biljettalternativ */}
@@ -35,9 +35,9 @@ const CheckoutForm: React.FC = () => {
                 onChange={(e) => setSelectedOption(e.target.value)}
               >
                 <option value="">Välj biljettalternativ</option>
-                <option value="Saturday">Dagspass lördag</option>
-                <option value="Sunday">Dagspass söndag</option>
-                <option value="Weekend">Hela helgen pass</option>
+                <option value="Saturday">Dagspass lördag 399:-</option>
+                <option value="Sunday">Dagspass söndag 299:-</option>
+                <option value="Weekend">Hela helgen pass 599:-</option>
               </select>
             </div>
 
@@ -107,7 +107,7 @@ const CheckoutForm: React.FC = () => {
 
             {/* Beställningsknapp */}
             <button
-              className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+              className="bg-red-500 text-white py-2 px-4 rounded-md hover:bg-red-600 focus:outline-none focus:ring focus:border-blue-300"
               onClick={() =>
                 postData(ticketInfo)
                   .then(() => alert('Tack för din beställning!'))

@@ -4,14 +4,16 @@ import MyLayout from './MyLayout';
 export default function Home() {
   return (
     <MyLayout>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="z-10 max-w-5xl w-full flex-col items-center justify-between font-mono text-sm lg:flex">
-          <h2 className="text-4xl font-bold text-center mb-8 lg:mb-0">
+      <main className="flex min-h-screen flex-col items-center justify-between p-10 bg-gray-800">
+        <div className="z-10 max-w-5xl w-full flex-col items-center justify-between font-mono text-sm text-white">
+          <h2 className="text-4xl font-bold text-center mb-10 ">
             FLICKERFEST FILMFESTIVAL
           </h2>
           <div className="flex flex-col items-center justify-center m-6 text-center">
-            <h3 className="text-3xl font-bold mb-4">10-12 november 2023</h3>
-            <p className="mb-4">
+            <h3 className="text-3xl font-bold mb-12 text-white">
+              10-12 november 2023
+            </h3>
+            <p className="mb-12 ">
               Välkomna till Flickerfest Filmfestival! Upplev spännande filmer
               från olika genrer och ta del av inspirerande evenemang. Lorem
               ipsum dolor sit amet consectetur adipisicing elit. Vel dolor hic
