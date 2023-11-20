@@ -21,14 +21,12 @@ const CheckoutForm: React.FC = () => {
   return (
     <MyLayout>
       <div>
-        <main className="flex items-center justify-center min-h-screen text-black bg-gray-800">
+        <main className="flex items-center justify-center min-h-screen text-black font-mono bg-gray-700">
           <div className="max-w-lg p-6 bg-white rounded-md shadow-md w-full">
             <h2 className="text-4xl font-bold mb-8">Checkout</h2>
             {/* Biljettalternativ */}
             <div className="mb-4">
-              <label className="block text-sm font-medium">
-                Biljettalternativ
-              </label>
+              <label className="block text-sm">Biljettalternativ</label>
               <select
                 className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300"
                 value={selectedOption}
@@ -43,7 +41,7 @@ const CheckoutForm: React.FC = () => {
 
             {/* Kontaktuppgifter */}
             <div className="mb-4">
-              <label className="block text-sm font-medium">Namn</label>
+              <label className="block text-sm">Namn</label>
               <input
                 type="text"
                 className="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300"
@@ -52,7 +50,7 @@ const CheckoutForm: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-600">
+              <label className="block text-sm text-gray-600">
                 E-postadress
               </label>
               <input
@@ -65,7 +63,7 @@ const CheckoutForm: React.FC = () => {
 
             {/* Betalningsalternativ */}
             <div className="mb-4">
-              <label className="block text-sm font-medium">
+              <label className="block text-sm font-mono">
                 Betalningsalternativ
               </label>
               <div className="mt-1 grid grid-cols-2 gap-4">

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Rowdies } from 'next/font/google';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
