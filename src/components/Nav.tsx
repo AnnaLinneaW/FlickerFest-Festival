@@ -6,17 +6,17 @@ const Nav = () => {
         <ul className="flex flex-row items-center justify-evenly space-x-4">
           <li>
             <Link href="/" className="text-white hover:underline">
-              Home
+              Hem
             </Link>
           </li>
           <li>
             <Link href="/schedule" className="text-white hover:underline">
-              Schedule
+              Program
             </Link>
           </li>
           <li>
             <Link href="/tickets" className="text-white hover:underline">
-              Tickets
+              Biljetter
             </Link>
           </li>
         </ul>

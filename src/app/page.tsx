@@ -29,9 +29,9 @@ export default function Home() {
               <h3 className="text-m font-bold mb-2">Vilken film ska du se?</h3>
               <Link
                 href="/schedule"
-                className="text-black-500 hover:underline font-bold text-lg"
+                className="text-black-500 hover:underline hover:text-red-600 font-bold text-lg"
               >
-                Schedule
+                Program
               </Link>
             </div>
 
@@ -39,7 +39,7 @@ export default function Home() {
               <h3 className="text-m font-bold mb-2">Boka din biljett nu:</h3>
               <Link
                 href="/tickets"
-                className="text-black-500 hover:underline font-bold text-lg"
+                className="text-black-500 hover:underline hover:text-red-600 font-bold text-lg"
               >
                 Buy Tickets
               </Link>
