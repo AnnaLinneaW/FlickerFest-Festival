@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4">
+    <footer className="bg-gray-800 text-white pt-8">
       <div className="container mx-auto flex justify-between">
         {/* Adress */}
         <div className="footer-section">
