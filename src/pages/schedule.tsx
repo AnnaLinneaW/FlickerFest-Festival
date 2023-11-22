@@ -23,8 +23,8 @@ const SchedulePage: React.FC = () => {
   return (
     <MyLayout>
       <div>
-        <main className="flex min-h-screen flex-col items-center p-4 sm:p-8 bg-gray-400 text-white">
-          <h2 className="text-4xl font-bold mb-4 font-mono">Program</h2>
+        <main className="flex min-h-screen flex-col items-center p-4 sm:p-8 bg-gray-700 text-white">
+          <h2 className="text-4xl font-bold mb-6 font-mono ">Program</h2>
           <div className="max-w-5xl w-full flex items-center justify-between font-mono text-sm flex-col sm:flex-row sm:space-x-8">
             {/* Fredag */}
             <div className="flex flex-col items-center justify-center mb-8 sm:mb-0">
@@ -41,7 +41,7 @@ const SchedulePage: React.FC = () => {
                       className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                     />
                   </Link>
-                  <div className="mt-2 text-gray-600">Tid: {film.time}</div>
+                  <div className="mt-2 text-white-600">Tid: {film.time}</div>
                 </div>
               ))}
             </div>
@@ -60,7 +60,7 @@ const SchedulePage: React.FC = () => {
                       className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                     />
                   </Link>
-                  <div className="mt-2 text-gray-600">Tid: {film.time}</div>
+                  <div className="mt-2 text-white-600">Tid: {film.time}</div>
                 </div>
               ))}
             </div>
@@ -79,7 +79,7 @@ const SchedulePage: React.FC = () => {
                       className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                     />
                   </Link>
-                  <div className="mt-2 text-gray-600">Tid: {film.time}</div>
+                  <div className="mt-2 text-white-600">Tid: {film.time}</div>
                 </div>
               ))}
             </div>

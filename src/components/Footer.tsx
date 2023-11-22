@@ -9,13 +9,13 @@ const Footer = () => {
           <p>Cityville, ST 12345</p>
         </div>
 
-        {/* Telefon */}
+        {/* Number */}
         <div className="footer-section">
           <h3 className="text-lg font-semibold mb-2">Telefon</h3>
           <p>(123) 456-7890</p>
         </div>
 
-        {/* E-postsektion */}
+        {/* Email */}
         <div className="footer-section">
           <h3 className="text-lg font-semibold mb-2">E-post</h3>
           <p>info@example.com</p>

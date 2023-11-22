@@ -6,10 +6,10 @@ export default function Home() {
     <MyLayout>
       <main className="flex min-h-screen flex-col items-center justify-between p-10 bg-gray-700">
         <div className="z-10 max-w-5xl w-full flex-col items-center justify-between font-mono text-sm text-white">
-          <h2 className="text-4xl font-bold text-center mb-10 ">
+          <h2 className="text-4xl font-bold text-center m-8 ">
             FLICKERFEST FILMFESTIVAL
           </h2>
-          <div className="flex flex-col items-center justify-center m-6 text-center">
+          <div className="flex flex-col items-center justify-center m-8 text-center">
             <h3 className="text-3xl font-bold mb-12 text-white">
               10-12 november 2023
             </h3>

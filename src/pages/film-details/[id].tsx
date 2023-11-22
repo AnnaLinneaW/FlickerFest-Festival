@@ -34,13 +34,12 @@ const FilmDetails: React.FC = () => {
   return (
     <MyLayout>
       <main
-        className="flex min-h-screen flex-col items-center justify-between p-24 relative"
+        className="flex min-h-[112vh] flex-col items-center justify-between p-50 relative"
         style={{
           backgroundImage: `url(/img/${currentFilm?.poster})`,
           backgroundSize: 'cover',
         }}
       >
-        {/* Overlay */}
         <div
           style={{
             position: 'absolute',
@@ -48,19 +47,20 @@ const FilmDetails: React.FC = () => {
             left: 0,
             width: '100%',
             height: '100%',
-            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Justera genomskinlighet efter behov
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
             display: 'flex',
             flexDirection: 'column',
             color: 'white',
             textAlign: 'left',
-
-            padding: '2rem', // Lägg till önskat avstånd från kanten
+            padding: '4rem',
           }}
         >
           <div className="flex flex-col items-center">
             {currentFilm && (
-              <div className="max-w-4xl">
-                <h2 className="text-4xl font-bold mb-4">{currentFilm.title}</h2>
+              <div className="max-w-5xl">
+                <h2 className="text-3xl pb-3 font-bold mb-4">
+                  {currentFilm.title}
+                </h2>
                 <Image
                   width={300}
                   height={400}
