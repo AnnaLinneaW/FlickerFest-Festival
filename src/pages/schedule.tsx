@@ -66,7 +66,7 @@ const SchedulePage: React.FC = () => {
             </div>
             {/* Söndag */}
             <div className="flex flex-col items-center justify-center">
-              <h2 className="text-2xl font-bold mb-4">Söndag</h2>
+              <h2 className="text-2xl font-bold mb-4">Sunday</h2>
               {sunFilm.map((film) => (
                 <div key={film.id} className="mb-4">
                   <h3 className="text-lg font-semibold">{film.title}</h3>
@@ -79,7 +79,7 @@ const SchedulePage: React.FC = () => {
                       className="cursor-pointer rounded-lg shadow-lg object-cover object-center"
                     />
                   </Link>
-                  <div className="mt-2 text-white-600">Tid: {film.time}</div>
+                  <div className="mt-2 text-white-600">Time: {film.time}</div>
                 </div>
               ))}
             </div>

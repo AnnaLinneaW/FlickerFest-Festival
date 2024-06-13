@@ -41,7 +41,7 @@ export default function Home() {
                 href="/tickets"
                 className="text-black-500 hover:underline hover:text-red-600 font-bold text-lg"
               >
-                Buy Tickets
+                Köp biljett
               </Link>
             </div>
           </div>
